@@ -1,0 +1,129 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.upgrad:transaction-service >-------------------
+[INFO] Building transaction-service 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ transaction-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ transaction-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ transaction-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\sidfo\Downloads\booking-service\payment-service\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ transaction-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\sidfo\Downloads\booking-service\payment-service\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ transaction-service ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.upgrad.transactionService.TransactionApplicationTests
+02:56:08.380 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+02:56:08.398 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+02:56:08.454 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.upgrad.transactionService.TransactionApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+02:56:08.472 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.upgrad.transactionService.TransactionApplicationTests], using SpringBootContextLoader
+02:56:08.479 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.upgrad.transactionService.TransactionApplicationTests]: class path resource [com/upgrad/transactionService/TransactionApplicationTests-context.xml] does not exist
+02:56:08.480 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.upgrad.transactionService.TransactionApplicationTests]: class path resource [com/upgrad/transactionService/TransactionApplicationTestsContext.groovy] does not exist
+02:56:08.480 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.upgrad.transactionService.TransactionApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:56:08.481 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.upgrad.transactionService.TransactionApplicationTests]: TransactionApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:56:08.549 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.upgrad.transactionService.TransactionApplicationTests]
+02:56:08.639 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\sidfo\Downloads\booking-service\payment-service\target\classes\com\upgrad\transactionService\TransactionApplication.class]
+02:56:08.641 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.upgrad.transactionService.TransactionApplication for test class com.upgrad.transactionService.TransactionApplicationTests
+02:56:08.827 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.upgrad.transactionService.TransactionApplicationTests]: using defaults.
+02:56:08.828 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:56:08.880 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@183e8023, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@45efc20d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3e5499cc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@67ab1c47, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@b78a709, org.springframework.test.context.support.DirtiesContextTestExecutionListener@30bcf3c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a3c96e3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@15cafec7, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b444398, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@cb191ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@42f48531, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@a776e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@792bbc74, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@79145d5a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1f2f9244]
+02:56:08.892 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@60d1a32f testClass = TransactionApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@531c311e testClass = TransactionApplicationTests, locations = '{}', classes = '{class com.upgrad.transactionService.TransactionApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4a00d9cf, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@50313382, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@37fb0bed, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@43599640, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6c61a903, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@15ff3e9e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+02:56:09.031 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.4)
+
+2021-10-26 02:56:09.882  INFO 17548 --- [           main] c.u.t.TransactionApplicationTests        : Starting TransactionApplicationTests using Java 11.0.13 on DESKTOP-G3Q7IT2 with PID 17548 (started by sidfo in C:\Users\sidfo\Downloads\booking-service\payment-service)
+2021-10-26 02:56:09.884  INFO 17548 --- [           main] c.u.t.TransactionApplicationTests        : No active profile set, falling back to default profiles: default
+2021-10-26 02:56:11.191  INFO 17548 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-26 02:56:11.543  INFO 17548 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 338 ms. Found 1 JPA repository interfaces.
+2021-10-26 02:56:12.125  INFO 17548 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e7afe397-8fd7-30a7-9df9-a80d9c167d3b
+2021-10-26 02:56:12.786  INFO 17548 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-26 02:56:12.864  INFO 17548 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-10-26 02:56:13.129  INFO 17548 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-26 02:56:13.533  INFO 17548 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-26 02:56:13.858  INFO 17548 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-26 02:56:13.879  INFO 17548 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Hibernate: drop table if exists hibernate_sequence
+Hibernate: drop table if exists transaction_details_entity
+Hibernate: create table hibernate_sequence (next_val bigint) engine=MyISAM
+Hibernate: insert into hibernate_sequence values ( 1 )
+Hibernate: create table transaction_details_entity (transaction_id integer not null, booking_id integer not null, card_number varchar(255), payment_mode varchar(255), upi_id varchar(255), primary key (transaction_id)) engine=MyISAM
+2021-10-26 02:56:14.683  INFO 17548 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-26 02:56:14.694  INFO 17548 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-26 02:56:15.792  WARN 17548 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-26 02:56:16.228  INFO 17548 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 02:56:17.548  INFO 17548 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-10-26 02:56:18.166  WARN 17548 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-26 02:56:18.288  INFO 17548 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 02:56:18.430  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 02:56:18.443  INFO 17548 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 02:56:18.511  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 02:56:18.511  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 02:56:18.511  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 02:56:18.511  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 02:56:18.511  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 02:56:18.511  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 02:56:18.512  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 02:56:19.129  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 02:56:19.136  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 02:56:19.143  INFO 17548 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 02:56:19.156  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635242179154 with initial instances count: 1
+2021-10-26 02:56:19.169  INFO 17548 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UNKNOWN with eureka with status UP
+2021-10-26 02:56:19.171  INFO 17548 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635242179171, current=UP, previous=STARTING]
+2021-10-26 02:56:19.176  INFO 17548 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/DESKTOP-G3Q7IT2:8084: registering service...
+2021-10-26 02:56:19.196  INFO 17548 --- [           main] c.u.t.TransactionApplicationTests        : Started TransactionApplicationTests in 10.148 seconds (JVM running for 11.902)
+2021-10-26 02:56:19.278  INFO 17548 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/DESKTOP-G3Q7IT2:8084 - registration status: 204
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.231 s - in com.upgrad.transactionService.TransactionApplicationTests
+2021-10-26 02:56:19.560  INFO 17548 --- [extShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UNKNOWN with eureka with status DOWN
+2021-10-26 02:56:19.561  INFO 17548 --- [extShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635242179561, current=DOWN, previous=UP]
+2021-10-26 02:56:19.562  INFO 17548 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/DESKTOP-G3Q7IT2:8084: registering service...
+2021-10-26 02:56:19.569  INFO 17548 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 02:56:19.572  INFO 17548 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-26 02:56:19.572  INFO 17548 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/DESKTOP-G3Q7IT2:8084 - registration status: 204
+2021-10-26 02:56:19.577  INFO 17548 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-26 02:56:19.594  INFO 17548 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-26 02:56:19.595  INFO 17548 --- [extShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 02:56:22.606  INFO 17548 --- [extShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 02:56:22.623  INFO 17548 --- [extShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/DESKTOP-G3Q7IT2:8084 - deregister  status: 200
+2021-10-26 02:56:22.631  INFO 17548 --- [extShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ transaction-service ---
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.4.4:repackage (repackage) @ transaction-service ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ transaction-service ---
+[INFO] Installing C:\Users\sidfo\Downloads\booking-service\payment-service\target\transaction-service-0.0.1-SNAPSHOT.jar to C:\Users\sidfo\.m2\repository\com\upgrad\transaction-service\0.0.1-SNAPSHOT\transaction-service-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\sidfo\Downloads\booking-service\payment-service\pom.xml to C:\Users\sidfo\.m2\repository\com\upgrad\transaction-service\0.0.1-SNAPSHOT\transaction-service-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.922 s
+[INFO] Finished at: 2021-10-26T02:56:23-07:00
+[INFO] ------------------------------------------------------------------------
