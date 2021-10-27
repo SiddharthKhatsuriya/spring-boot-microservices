@@ -34,9 +34,9 @@ public class BookingController {
 
     BookingInfoEntity savedBooking = bookingService.createBooking(booking);
 
-    BookingDTO savedUserDTO = POJOConvertor.covertBookingEntityToDTO(booking);
+    BookingDTO savedBookingDTO = POJOConvertor.covertBookingEntityToDTO(booking);
 
-    return new ResponseEntity(savedUserDTO , HttpStatus.CREATED);
+    return new ResponseEntity(savedBookingDTO , HttpStatus.CREATED);
   }
 
   @GetMapping(value="/booking/{id}")
@@ -55,8 +55,8 @@ public class BookingController {
   public ResponseEntity updateTransaction(@PathVariable("id") int id, @RequestBody PaymentRequestDTO paymentRequestDTO){
     try {
       BookingInfoEntity updatedBooking = bookingService.updateTransaction(id, paymentRequestDTO);
-      BookingDTO savedUserDTO = POJOConvertor.covertBookingEntityToDTO(updatedBooking);
-      return new ResponseEntity(savedUserDTO, HttpStatus.OK);
+      BookingDTO savedBookingDTO = POJOConvertor.covertBookingEntityToDTO(updatedBooking);
+      return new ResponseEntity(savedBookingDTO, HttpStatus.OK);
     } catch (NoSuchElementException e){
       return new ResponseEntity(new ErrorResponseDTO( HttpStatus.BAD_REQUEST.value(),"Invalid Booking Id"), HttpStatus.BAD_REQUEST);
     } catch (FeignException e){

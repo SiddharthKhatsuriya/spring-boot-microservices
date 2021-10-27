@@ -86,7 +86,7 @@ public class BookingServiceImpl implements BookingService {
         return bookingDao;
     }
 
-    public void setUserDao(BookingDao bookingDao) {
+    public void setBookingDao(BookingDao bookingDao) {
         this.bookingDao = bookingDao;
     }
 }

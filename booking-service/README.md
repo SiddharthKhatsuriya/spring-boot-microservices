@@ -1,1 +1,1 @@
-# booking=service
+# booking-service
